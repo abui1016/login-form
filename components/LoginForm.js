@@ -7,8 +7,10 @@ const LoginForm = ({ LoginData, setIsValidLogin }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const username = user.toLowerCase();
+
     const account = LoginData.find(
-      (el) => el.username === user && el.password === password
+      (el) => el.username.toLowerCase() === username && el.password === password
     );
     if (account) setIsValidLogin(true);
     else alert("Invalid Login Credentials");
