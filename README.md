@@ -20,7 +20,7 @@ yarn dev
 
 You can find the sample login data inside of ./data/LoginData.js
 
-Deployed on netlify: https://62f2fe9bf9296c3dd5432dcb--superb-manatee-1aa07c.netlify.app/
+Deployed on netlify: https://superb-manatee-1aa07c.netlify.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
