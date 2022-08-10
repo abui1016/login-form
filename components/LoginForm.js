@@ -12,6 +12,9 @@ const LoginForm = ({ LoginData, setIsValidLogin }) => {
     );
     if (account) setIsValidLogin(true);
     else alert("Invalid Login Credentials");
+
+    setUser("");
+    setPassword("");
   };
 
   return (
