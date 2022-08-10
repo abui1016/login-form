@@ -15,6 +15,8 @@ const LoginForm = ({ LoginData, setIsValidLogin }) => {
 
     setUser("");
     setPassword("");
+
+    e.target.reset();
   };
 
   return (
