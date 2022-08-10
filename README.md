@@ -2,13 +2,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install all dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
+You can find the sample login data inside of ./data/LoginData.js
+
+Deployed on netlify: https://62f2fe9bf9296c3dd5432dcb--superb-manatee-1aa07c.netlify.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
